@@ -12,13 +12,21 @@ namespace Msdn
     class Extractor : WebClient
     {
         string htmlCode, Carpeta, titulo;
-
+        /// <summary>
+        /// Obtiene el titulo de la etiqueta HTML Title
+        /// </summary>
+        /// <param name="datos"></param>
+        /// <returns></returns>
         private string ObtenerTitulo(string datos)
         {
             var d = new XmlDocument();
             d.LoadXml(datos);
             return d["head"]["title"].InnerText;
         }
+        /// <summary>
+        /// Extrae los Url de los archivos HTML
+        /// </summary>
+        /// <param name="Url"></param>
         public Extractor(Uri Url)
         {
             this.Encoding = Encoding.UTF8;
