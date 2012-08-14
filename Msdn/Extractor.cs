@@ -45,7 +45,7 @@ namespace Msdn
             f.Write(sb.ToString());
             f.Close();
             f.Dispose();
-            sb.Clear();
+            sb = new StringBuilder();
             var guardar = new SaveFileDialog();
             guardar.Filter = "HTML Página|*.html";
             guardar.Title = "Guardar " + titulo;
