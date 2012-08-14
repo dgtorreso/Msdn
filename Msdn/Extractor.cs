@@ -20,7 +20,7 @@ namespace Msdn
         private string ObtenerTitulo(string datos)
         {
             var d = new XmlDocument();
-            d.LoadXml(datos);
+            d.LoadXml(datos); 
             return d["head"]["title"].InnerText;
         }
         /// <summary>

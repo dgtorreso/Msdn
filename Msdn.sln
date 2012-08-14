@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Msdn", "Msdn\Msdn.csproj", "{B9082FC4-CACE-406F-8391-7A6CBDD5AA2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulario", "Formulario\Formulario.csproj", "{E0D605AD-6864-452E-887E-E1340AD4F29C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,13 @@ Global
 		{B9082FC4-CACE-406F-8391-7A6CBDD5AA2A}.Debug|x86.Build.0 = Debug|x86
 		{B9082FC4-CACE-406F-8391-7A6CBDD5AA2A}.Release|x86.ActiveCfg = Release|x86
 		{B9082FC4-CACE-406F-8391-7A6CBDD5AA2A}.Release|x86.Build.0 = Release|x86
+		{E0D605AD-6864-452E-887E-E1340AD4F29C}.Debug|x86.ActiveCfg = Debug|x86
+		{E0D605AD-6864-452E-887E-E1340AD4F29C}.Debug|x86.Build.0 = Debug|x86
+		{E0D605AD-6864-452E-887E-E1340AD4F29C}.Release|x86.ActiveCfg = Release|x86
+		{E0D605AD-6864-452E-887E-E1340AD4F29C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Msdn\Msdn.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
